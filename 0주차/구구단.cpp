@@ -5,14 +5,14 @@ using namespace std;
 
 int main()
 {
-    int n;
-    int i;
-    cin >> n;
-    i = 1;
-    while (i <= 9)
-    {
-        cout << n << " * " << i << " = " << n * i << endl;
-        i++;
-    }
-    return 0;
+	int n;
+	int i;
+	cin >> n;
+	i = 1;
+	while (i <= 9)
+	{
+		cout << n << " * " << i << " = " << n * i << endl;
+		i++;
+	}
+	return 0;
 }

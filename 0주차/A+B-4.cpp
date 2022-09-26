@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-    int a, b;
-    cin.tie(NULL);
-    while (cin >> a >> b)
-        cout << a + b << "\n";
-    return 0;
+	int a, b;
+	cin.tie(NULL);
+	while (cin >> a >> b)
+		cout << a + b << "\n";
+	return 0;
 }

@@ -5,17 +5,17 @@ using namespace std;
 
 int main()
 {
-    int n;
-    int result;
-    
-    cin >> n;
-    result = 0;
-    
-    while (n > 0)
-    {
-        result += n;
-        n--;
-    }
-    cout << result;
-    return 0;
+	int n;
+	int result;
+	
+	cin >> n;
+	result = 0;
+	
+	while (n > 0)
+	{
+		result += n;
+		n--;
+	}
+	cout << result;
+	return 0;
 }

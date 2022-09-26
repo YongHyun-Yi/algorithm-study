@@ -5,14 +5,14 @@ using namespace std;
 
 int main()
 {
-    int a;
-    int b;
-    cin >> a >> b;
-    if (a > b)
-        cout << ">";
-    else if (a < b)
-        cout << "<";
-    else
-        cout << "==";
-    return 0;
+	int a;
+	int b;
+	cin >> a >> b;
+	if (a > b)
+		cout << ">";
+	else if (a < b)
+		cout << "<";
+	else
+		cout << "==";
+	return 0;
 }

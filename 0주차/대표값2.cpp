@@ -7,15 +7,15 @@ using namespace std;
 
 int main()
 {
-    vector<int> a(5);
-    int avg = 0, cent;
-    for (int i = 0; i < 5; i++)
-    {
-        cin >> a[i];
-        avg += a[i];
-    }
-    avg /= 5;
-    sort(a.begin(), a.end());
-    cent = a[2];
-    cout << avg << '\n' << cent;
+	vector<int> a(5);
+	int avg = 0, cent;
+	for (int i = 0; i < 5; i++)
+	{
+		cin >> a[i];
+		avg += a[i];
+	}
+	avg /= 5;
+	sort(a.begin(), a.end());
+	cent = a[2];
+	cout << avg << '\n' << cent;
 }
