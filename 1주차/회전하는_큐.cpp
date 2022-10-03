@@ -1,4 +1,4 @@
-// ¹éÁØ 1021¹ø ¹®Á¦
+// ë°±ì¤€ 1021ë²ˆ ë¬¸ì œ
 
 #include <iostream>
 #include <utility>
@@ -23,7 +23,7 @@ int main()
 		target_i = find(que.begin(), que.end(), target) - que.begin();
 		while (target != que.front())
 		{
-			if (target_i > que.size() - target_i) // ¾Õ¿¡¼­ ¼¼¾úÀ»¶§ À§Ä¡, µÚ¿¡¼­ ¼¼¾úÀ»¶§ À§Ä¡
+			if (target_i > que.size() - target_i) // ì•žì—ì„œ ì„¸ì—ˆì„ë•Œ ìœ„ì¹˜, ë’¤ì—ì„œ ì„¸ì—ˆì„ë•Œ ìœ„ì¹˜
 			{
 				que.push_front(que.back());
 				que.pop_back();
@@ -42,12 +42,12 @@ int main()
 	return 0;
 }
 
-// algorithmÀÇ find ÇÔ¼ö·Î Å¸°ÙÀÇ ÀÎµ¦½º¸¦ ¾Ë¾Æ³¾¼öÀÖ´Ù....
-	// deque¹®Á¦¶ó°í ¹«Á¶°Ç deque¸¸ »ç¿ëÇÏ¸é ¾ÈµÈ´Ù´Â°ÍÀ» »ý°¢ÇÒ°Í
+// algorithmì˜ find í•¨ìˆ˜ë¡œ íƒ€ê²Ÿì˜ ì¸ë±ìŠ¤ë¥¼ ì•Œì•„ë‚¼ìˆ˜ìžˆë‹¤....
+	// dequeë¬¸ì œë¼ê³  ë¬´ì¡°ê±´ dequeë§Œ ì‚¬ìš©í•˜ë©´ ì•ˆëœë‹¤ëŠ”ê²ƒì„ ìƒê°í• ê²ƒ
 
 	// -----------------------------------------------------
 
-	// »Ì¾Æ³»´Â°Ç Ã¹¹ø¤Š ¿ø¼Ò¸¸ °¡´ÉÇÔ
-	// ±×·¸±â¿¡ ÇØ´ç ÀÎµ¦½º°¡ ¾Æ´Ï¸é °è¼Ó È¸Àü½ÃÄÑ¾ßÇÔ
-	// ÀÎµ¦½º°ªÀ» ºñ±³ÇÏ°í ¿ø¼Ò¸¦ »Ì¾Æ³»°í
-	// ¿ÞÂÊÀÌµç ¿À¸¥ÂÊÀÌµç 'È¸ÀüÀ» ÃÑ ¸î¹øÇØ¾ßÇÏ´Â°¡'¸¦ Ãâ·Â
+	// ë½‘ì•„ë‚´ëŠ”ê±´ ì²«ë²ˆì¨° ì›ì†Œë§Œ ê°€ëŠ¥í•¨
+	// ê·¸ë ‡ê¸°ì— í•´ë‹¹ ì¸ë±ìŠ¤ê°€ ì•„ë‹ˆë©´ ê³„ì† íšŒì „ì‹œì¼œì•¼í•¨
+	// ì¸ë±ìŠ¤ê°’ì„ ë¹„êµí•˜ê³  ì›ì†Œë¥¼ ë½‘ì•„ë‚´ê³ 
+	// ì™¼ìª½ì´ë“  ì˜¤ë¥¸ìª½ì´ë“  'íšŒì „ì„ ì´ ëª‡ë²ˆí•´ì•¼í•˜ëŠ”ê°€'ë¥¼ ì¶œë ¥
