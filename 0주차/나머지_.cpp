@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// ¹éÁØ 10430¹ø ¹®Á¦
+// ë°±ì¤€ 10430ë²ˆ ë¬¸ì œ
 
 int main()
 {

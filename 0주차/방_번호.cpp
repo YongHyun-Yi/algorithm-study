@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-// ¹éÁØ 1475¹ø ¹®Á¦
+// ë°±ì¤€ 1475ë²ˆ ë¬¸ì œ
 
 int main()
 {

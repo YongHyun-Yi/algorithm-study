@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-// ¹éÁØ 8958¹ø ¹®Á¦
+// ë°±ì¤€ 8958ë²ˆ ë¬¸ì œ
 
 int main()
 {

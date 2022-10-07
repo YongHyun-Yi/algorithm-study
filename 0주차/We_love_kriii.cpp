@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-// ¹éÁØ 10718¹ø ¹®Á¦
+// ë°±ì¤€ 10718ë²ˆ ë¬¸ì œ
 
 int main()
 {
-	cout << "°­ÇÑÄ£±¸ ´ëÇÑÀ°±º" << endl;
-	cout << "°­ÇÑÄ£±¸ ´ëÇÑÀ°±º" << endl;
+	cout << "ê°•í•œì¹œêµ¬ ëŒ€í•œìœ¡êµ°" << endl;
+	cout << "ê°•í•œì¹œêµ¬ ëŒ€í•œìœ¡êµ°" << endl;
 	return 0;
 }

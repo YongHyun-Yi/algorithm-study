@@ -1,4 +1,4 @@
-// ¹éÁØ 10866¹ø ¹®Á¦
+// ë°±ì¤€ 10866ë²ˆ ë¬¸ì œ
 
 #include <iostream>
 #include <string>

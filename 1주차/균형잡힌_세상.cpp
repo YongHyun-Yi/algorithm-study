@@ -1,4 +1,4 @@
-// ¹éÁØ 4949¹ø ¹®Á¦
+// ë°±ì¤€ 4949ë²ˆ ë¬¸ì œ
 
 #include <iostream>
 #include <string>
@@ -25,12 +25,12 @@ int main()
 
 			else if (c == ')')
 			{
-				if ( brk.empty() || brk.top() != '(') // Á¶°Ç¹®ÀÇ ¼ø¼­¿¡ À¯ÀÇÇÑ´Ù, ºñ¾îÀÖ´Â ¹è¿­À» ÂüÁ¶ÇØ¼­ segfault°¡ ³¯¼öÀÖÀ½
+				if ( brk.empty() || brk.top() != '(') // ì¡°ê±´ë¬¸ì˜ ìˆœì„œì— ìœ ì˜í•œë‹¤, ë¹„ì–´ìžˆëŠ” ë°°ì—´ì„ ì°¸ì¡°í•´ì„œ segfaultê°€ ë‚ ìˆ˜ìžˆìŒ
 				{
 					error = 1;
 					break;
 				}
-				brk.pop(); // if¿¡¼­ °É¸®¸é ¾îÂ÷ÇÇ break·Î Å»ÃâÇÏ´Ï else¸¦ ¾²Áö ¾Ê¾Æµµ µÆÀ½....
+				brk.pop(); // ifì—ì„œ ê±¸ë¦¬ë©´ ì–´ì°¨í”¼ breakë¡œ íƒˆì¶œí•˜ë‹ˆ elseë¥¼ ì“°ì§€ ì•Šì•„ë„ ëìŒ....
 			}
 			else if (c == ']')
 			{
@@ -42,7 +42,7 @@ int main()
 				brk.pop();
 			}
 		}
-		if (error || !brk.empty()) // À§¿¡¼­ no¸¦ Ãâ·ÂÇÏ°í Å»ÃâÇÏ¸é ¿©±â¼­ Áßº¹ Ãâ·ÂÀÌ µÇ±â¶§¹®¿¡ ÇÃ·¡±× º¯¼ö¸¦ »ç¿ëÇØ¼­ ÀÏ°ýÃâ·ÂÇÑ´Ù
+		if (error || !brk.empty()) // ìœ„ì—ì„œ noë¥¼ ì¶œë ¥í•˜ê³  íƒˆì¶œí•˜ë©´ ì—¬ê¸°ì„œ ì¤‘ë³µ ì¶œë ¥ì´ ë˜ê¸°ë•Œë¬¸ì— í”Œëž˜ê·¸ ë³€ìˆ˜ë¥¼ ì‚¬ìš©í•´ì„œ ì¼ê´„ì¶œë ¥í•œë‹¤
 			cout << "no\n";
 		else
 			cout << "yes\n";
